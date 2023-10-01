@@ -1,0 +1,44 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #E8BABA;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px; /* Tamaño del logotipo */
+  height: 50px; /* Tamaño del logotipo */
+  margin-right: 10px; /* Espacio entre el logotipo y el texto */
+}
+
+.logo span {
+  font-size: 1.5rem; /* Tamaño del texto del nombre de la aplicación */
+  color: #333; /* Color del texto */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333; /* Color de texto para los enlaces */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Transición de color suave al pasar el mouse */
+  margin-left: 20px;
+}
+
+.nav-links li a:hover {
+  color: #ffffff; /* Cambia el color del texto al pasar el mouse */
+}

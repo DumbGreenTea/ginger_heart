@@ -1,0 +1,11 @@
+/* Estilos para el carrusel */
+.image-carousel {
+    margin: 20px;
+  }
+  
+  /* Estilos para las imágenes dentro del carrusel */
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
