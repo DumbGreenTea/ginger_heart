@@ -9,7 +9,7 @@ function Nosotros() {
         <div className="App">
             <Header/>
             <h1>Nosotros</h1>    
-            <img src='torta7.png'/>        
+            <img src='torta7.jpg'/>        
             <div className="contenedor">   
                 <p>Nuestra visión es (...)</p>
             </div>
