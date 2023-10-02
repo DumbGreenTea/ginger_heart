@@ -2,38 +2,33 @@
 
 import Header from './Navbar'
 import "./nosotros.css"
+import Footer from './Footer';
+
 
 function Nosotros() {
   return (
     <div className="body2">
         <div className="App">
             <Header/>
-            <h1>Nosotros</h1>    
-            <img src='torta7.jpg'/>        
-            <div className="contenedor">   
-                <p>Nuestra visión es (...)</p>
+            <h1>Nosotros</h1>  
+
+            <div className='Container'>
+                <img src='torta7.jpg' alt='torta7' id='torta7'/>        
+                <div className="contenedor1">   
+                    <p>Nuestra visión es (...)</p>
+                </div>
             </div>
-            <br/>
-            <br/>
-            <div className="contenedor">   
-                <p>Somos un equipo que (...)</p>
+
+            <div className='Container'>
+                <div className="contenedor2">   
+                    <p>Somos un equipo que (...)</p>
+                </div>
+                <img src='torta6.jpg' alt='torta6' id='torta6'/>
             </div>
-            <br/>
-            <br/>
-            <h3>Nuestras redes</h3>
-            <ul>
-                <li>
-                    +569 4589 1146
-                </li>
-                <li>
-                <a href="https://www.instagram.com/corazonjengibre/">Instagram</a>
-                </li>
-                <li>
-                <a href="https://web.facebook.com/corazondejengibre/">Facebook</a>
-                </li>
-                <br/>
-                <br/>
-            </ul>
+
+            
+            
+            <Footer/>
         </div>
     </div>
   );

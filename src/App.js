@@ -5,6 +5,7 @@ import Home from './Home';
 import Contacto from './contacto';
 import Quienes_Somos from './quienes_somos';
 import Nosotros from './nosotros';
+import Galery from './galery'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/contacto" element={<Contacto/>}/>
         <Route path="/quienes_somos" element={<Quienes_Somos/>}/>
         <Route path="/nosotros" element={<Nosotros/>}/>
+        <Route path="/galeria" element={<Galery/>}/>
         
       </Routes>
     </Router>

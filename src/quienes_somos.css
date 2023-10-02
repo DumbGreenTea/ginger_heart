@@ -7,11 +7,15 @@
     background-image: url('/public/torta5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 130vh;
     width: 100%;
 }
 
-p {
+.p {
     text-align: justify;
     margin-inline: 50px;
+}
+
+.content{
+    margin-top: 30%;
 }

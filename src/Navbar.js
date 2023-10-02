@@ -11,6 +11,7 @@ function Navbar() {
         <li><a href="/quienes_somos">Quienes somos</a></li>
         <li><a href="/contacto">Contacto</a></li>
         <li><a href="/nosotros">Nosotros</a></li>
+        <li><a href="/galeria">Galeria</a></li>
       </ul>
     </div>
   );

@@ -2,6 +2,8 @@
 //formato y no existan elementos vacíos
 
 import Header from "./Navbar.js"
+import Footer from './Footer';
+
 
 
 function Contacto() {
@@ -59,6 +61,7 @@ function Contacto() {
   
             <button type="submit">Enviar</button>
           </form>
+          <Footer/>
         </div>
       </div>
     );

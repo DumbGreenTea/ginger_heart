@@ -1,5 +1,6 @@
 
 import './HomeStyle.css';
+import './App.css'
 import Header from './Navbar'
 import ImageCarousel from './Carousel';
 import Footer from './Footer';

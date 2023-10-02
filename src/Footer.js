@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer" style={{ backgroundColor: '#E8BABA' }}>
       <Container>
         <Row>
-          <Col lg={4}>
+          <Col lg={4} className="text-center">
             <h3>Redes Sociales</h3>
             <div className="social-icons">
               <a href="#"><i className="fab fa-facebook"></i> Facebook</a>
@@ -20,24 +20,24 @@ function Footer() {
             <p>Teléfono: +123 456 789</p>
             <p>Dirección: Calle Ejemplo, Ciudad</p>
           </Col>
-          <Col lg={4} className="text-right">
+          <Col lg={4} className="text-center">
             <h3>Horario de Atención</h3>
             <p>Lunes a Viernes: 9:00 AM - 5:00 PM</p>
             <p>Sábado: 10:00 AM - 2:00 PM</p>
             <p>Domingo: Cerrado</p>
           </Col>
         </Row>
-        <Row>
+        <Row className="align-items-center">
           <Col md={12}>
             <hr />
           </Col>
         </Row>
         <Row>
-          <Col md={6}>
+          <Col md={6} className="text-center">
             <p>&copy; {new Date().getFullYear()} Tu Empresa - Todos los derechos reservados.</p>
           </Col>
-          <Col md={6}>
-            <p className="text-md-right">Diseñado por: Tu Nombre</p>
+          <Col md={6} className="text-center">
+            <p className="mb-0">Diseñado por: Tu Nombre</p>
           </Col>
         </Row>
       </Container>
