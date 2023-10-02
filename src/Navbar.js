@@ -8,8 +8,9 @@ function Navbar() {
       
       <ul className="nav-links">
         <li><a href="/">Inicio</a></li>
-        <li><a href="/quienes-somos">Quienes somos</a></li>
+        <li><a href="/quienes_somos">Quienes somos</a></li>
         <li><a href="/contacto">Contacto</a></li>
+        <li><a href="/nosotros">Nosotros</a></li>
       </ul>
     </div>
   );
