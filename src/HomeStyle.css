@@ -5,7 +5,7 @@
   }
   
   .Bottom{
-    height: 500px;
+    height: 300px;
   }
 
   .Blocks{
@@ -14,4 +14,8 @@
 
   .block{
     padding: 20px;
+  }
+
+  #APIData{
+    margin: auto;
   }
