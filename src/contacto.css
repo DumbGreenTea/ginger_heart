@@ -1,0 +1,62 @@
+/* Estilo para el formulario de contacto */
+.container_contact {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-left: 10%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  background-color: #E8BABA;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e37878;
+  transition:  0.3s;
+}
+
+/* Estilo para errores de validación */
+.error-message {
+  color: #FF5733;
+  margin: 5px 0;
+}
+
+/* Estilo para los campos con errores de validación */
+input.error,
+textarea.error {
+  border-color: #FF5733;
+}

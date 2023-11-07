@@ -3,7 +3,7 @@
 
 import Header from "./Navbar.js"
 import Footer from './Footer';
-
+import "./contacto.css"
 
 
 function Contacto() {

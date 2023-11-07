@@ -1,48 +1,36 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Footer() {
+
+const Footer = () => {
   return (
-    <footer className="footer" style={{ backgroundColor: '#E8BABA' }}>
-      <Container>
-        <Row>
-          <Col lg={4} className="text-center">
-            <h3>Redes Sociales</h3>
-            <div className="social-icons">
-              <a href="#"><i className="fab fa-facebook"></i> Facebook</a>
-              <a href="#"><i className="fab fa-twitter"></i> Twitter</a>
-              <a href="#"><i className="fab fa-instagram"></i> Instagram</a>
-            </div>
-          </Col>
-          <Col lg={4} className="text-center">
-            <h3>Contacto</h3>
-            <p>Correo Electrónico: info@example.com</p>
-            <p>Teléfono: +123 456 789</p>
-            <p>Dirección: Calle Ejemplo, Ciudad</p>
-          </Col>
-          <Col lg={4} className="text-center">
-            <h3>Horario de Atención</h3>
-            <p>Lunes a Viernes: 9:00 AM - 5:00 PM</p>
-            <p>Sábado: 10:00 AM - 2:00 PM</p>
-            <p>Domingo: Cerrado</p>
-          </Col>
-        </Row>
-        <Row className="align-items-center">
-          <Col md={12}>
-            <hr />
-          </Col>
-        </Row>
-        <Row>
-          <Col md={6} className="text-center">
-            <p>&copy; {new Date().getFullYear()} Tu Empresa - Todos los derechos reservados.</p>
-          </Col>
-          <Col md={6} className="text-center">
-            <p className="mb-0">Diseñado por: Tu Nombre</p>
-          </Col>
-        </Row>
-      </Container>
+    <footer className="bg-dark text-light p-4">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <h5>Información de la Empresa</h5>
+            <p>Nombre de la empresa</p>
+            <p>Dirección de la empresa</p>
+            <p>Teléfono: (123) 456-7890</p>
+          </div>
+          <div className="col-md-4">
+            <h5>Contacto</h5>
+            <p>Correo electrónico: info@empresa.com</p>
+            <p>Redes sociales: <a href="#">Facebook</a>, <a href="#">Twitter</a></p>
+          </div>
+          <div className="col-md-4">
+            <h5>Enlaces útiles</h5>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Acerca de nosotros</a></li>
+              <li><a href="#">Servicios</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
   );
-}
+};
 
 export default Footer;
