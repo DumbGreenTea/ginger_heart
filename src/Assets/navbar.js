@@ -17,10 +17,11 @@ function Navbar() {
           <li class="active"><Link to="/">Inicio</Link></li>
 
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Nosotros</a>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Quiénes Somos</a>
             <ul class="dropdown-menu fs-3">
-              <li><a href="/nuestra_historia">Nuestra Historia</a></li>
-              <li><Link to="/contacto">Contáctanos</Link></li>
+              <li><a href="/nuestra_historia#">Nuestra Historia</a></li>
+              <li><Link to="/contacto#">Contáctanos</Link></li>
+              <li><Link to="/nosotros#">Nosotros</Link></li>
             </ul>
           </li>
 
@@ -36,10 +37,14 @@ function Navbar() {
         <ul class="navbar-nav flex-row d-flex fs-3">
 
         <li class="dropdown"style={{marginLeft: "600px"}}>
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Productos</a>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Servicios</a>
             <ul class="dropdown-menu fs-3">
-              <li><Link to="/">KJABSJDB</Link></li>
-              <li><a href='#'>Bla bla</a></li>
+              <li><Link to="/">Picnic Time</Link></li>
+              <li><Link to="/">Mesones Boutique</Link></li>
+              <li><Link to="/">Banquetería</Link></li>
+              <li><Link to="/">Pastelería</Link></li>
+              <li><Link to="/">Cafetería</Link></li>
+              <li><Link to="/">Helados</Link></li>
             </ul>
           </li>
 

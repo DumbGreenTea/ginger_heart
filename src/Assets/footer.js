@@ -3,6 +3,8 @@ import "../App.css";
 import logo from './img/logo.png';
 import { Link } from 'react-router-dom';
 
+
+
 function Footer(){
     return (
         <div class='nomargin'>
@@ -13,13 +15,14 @@ function Footer(){
                         <li className="logo_footer"><img src={logo} style={{width: '30%'}}/></li>
                         <li><Link to="/">&#10084; Inicio</Link></li>
                         <li><a href="#">&#10084; Productos</a></li>
-                        <li><a href='#'>&#10084; Galería</a></li>
+                        <li><Link to='/galeria'>&#10084; Galería</Link></li>
                     </ul>
 
                     <ul>
-                        <li><a style={{fontSize: "2.5rem"}}><u>Nosotros</u></a></li>
-                        <li><a href="#">&#10084; Nuestra Historia</a></li>
-                        <li><Link to='/contacto'>&#10084; Contáctanos</Link></li>
+                        <li><a style={{fontSize: "2.5rem"}}><u>Quiénes Somos</u></a></li>
+                        <li><Link to="/nuestra_historia" onclick="topFunction()">&#10084; Nuestra Historia</Link></li>
+                        <li><Link to="/contacto">&#10084; Contáctanos</Link></li>
+                        <li><Link to="/nosotros">&#10084; Nosotros</Link></li>
                     </ul>
 
                     <ul style={{marginRight: "-50vh"}}>
