@@ -5,14 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Galeria = () => {
   const [images, setImages] = useState([]);
 
-  // En un entorno de producción, NO debes almacenar el token de acceso de esta manera.
-  const accessToken = "IGQWRNTThGV0gyMDNNS01vUlZAHMzRRQkFxYnJIallRWm16X3hCNVRFMWdiX0kwRVRjZAmRaTEZAxRjNnaWY2ZAm5VaktoVDBvTVR2d2MtcVEwOVJFSzJucHo2WS05V243Q1RXSzBGSXR5Ym4tVUVoSzJkcFk1VW1VeE0ZD";
-
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `https://graph.instagram.com/v12.0/me/media?fields=id,media_type,media_url,caption&access_token=${accessToken}`
+          `https://graph.instagram.com/v12.0/me/media?fields=id,media_type,media_url,caption&access_token=${process.env.REACT_APP_INSTAGRAM_ACCESS_TOKEN}`
         );
 
         setImages(response.data.data);
