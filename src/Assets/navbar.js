@@ -38,7 +38,7 @@ function Navbar() {
         <li class="dropdown"style={{marginLeft: "600px"}}>
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Productos</a>
             <ul class="dropdown-menu fs-3">
-              <li><Link to="/">Nuestra Historia</Link></li>
+              <li><Link to="/nuestra_historia">Nuestra Historia</Link></li>
               <li><a href='#'>Bla bla</a></li>
             </ul>
           </li>
