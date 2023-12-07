@@ -11,6 +11,7 @@ import Galeria from './Assets/galeria';
 import Picnic from './Assets/servicios_nav/picnic';
 import Buffet from './Assets/servicios_nav/buffet';
 import Banqueteria from './Assets/servicios_nav/banquetería';
+import WhatsAppButton from './Assets/WhatsAppButton';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Route path="/banquetería" element={<Banqueteria/>} />
 
     </Routes>
+    <WhatsAppButton/>
     <Footer />
     </>
   );

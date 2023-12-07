@@ -215,3 +215,27 @@ body {
   object-position: 0vh -50vh;
   height: 100vh;
 }
+
+.carousel-indicators {
+  margin-left: 10000px;
+}
+
+/* WhatsAppButton.css */
+
+.WhatsAppButton {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 1000;
+  background-color: #1fdd65;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Aumenta el tamaño del ícono */
+.WhatsAppButton svg {
+  font-size: 40px; /* Ajusta el tamaño del ícono según sea necesario */
+}
