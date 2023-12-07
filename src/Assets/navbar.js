@@ -1,5 +1,5 @@
 import React from 'react';
-import "../App.css"
+import "../App.css";
 import logo from './img/logo.png'
 import { Link } from 'react-router-dom'
 //<li><a href="/nosotros">Nosotros</a></li>
@@ -19,7 +19,7 @@ function Navbar() {
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Quiénes Somos</a>
             <ul class="dropdown-menu fs-3">
-              <li><a href="/nuestra_historia#">Nuestra Historia</a></li>
+              <li><Link to="/nuestra_historia#">Nuestra Historia</Link></li>
               <li><Link to="/contacto#">Contáctanos</Link></li>
               <li><Link to="/nosotros#">Nosotros</Link></li>
             </ul>
@@ -39,12 +39,9 @@ function Navbar() {
         <li class="dropdown"style={{marginLeft: "600px"}}>
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Servicios</a>
             <ul class="dropdown-menu fs-3">
-              <li><Link to="/">Picnic Time</Link></li>
-              <li><Link to="/">Mesones Boutique</Link></li>
-              <li><Link to="/">Banquetería</Link></li>
-              <li><Link to="/">Pastelería</Link></li>
-              <li><Link to="/">Cafetería</Link></li>
-              <li><Link to="/">Helados</Link></li>
+              <li><Link to="/banquetería">Banquetería</Link></li>
+              <li><Link to="/buffet">Mesones Boutique</Link></li>
+              <li><Link to="/picnic">Picnic Time</Link></li>
             </ul>
           </li>
 

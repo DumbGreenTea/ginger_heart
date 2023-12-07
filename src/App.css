@@ -152,7 +152,7 @@ li a, .dropbtn {
   display: inline-block;
   color: black;
   text-align: center;
-  padding: 50px;
+  padding: 7vh;
   text-decoration: none;
 }
 
@@ -207,16 +207,11 @@ body {
 
 
 .small-carousel .carousel-inner .item {
-  max-height: 700px; /* Ajusta este valor según el tamaño deseado */
+  max-height: 10000vh; /* Ajusta este valor según el tamaño deseado */
 }
 
 .small-carousel .carousel-inner img {
-  height: 100%;
   object-fit: cover;
-  object-position: 50% 50%;
+  object-position: 0vh -50vh;
   height: 100vh;
-}
-
-.carousel-indicators {
-  margin-left: 10000px;
 }

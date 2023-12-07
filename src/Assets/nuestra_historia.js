@@ -1,6 +1,6 @@
 import React from 'react';
 import "../App.css"
-import t10 from './img/torta10.jpg'; 
+import t10 from './img/meson2.jpg'; 
 
 export default function NuestraHistoria(){
   return(

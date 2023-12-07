@@ -3,6 +3,7 @@ import "../App.css"
 import t1 from './img/torta1.png'; 
 import t4 from './img/torta4.png';
 import t6 from './img/torta6.jpg';
+import c from './img/corazon.jpg';
 
 export default function Container_img(){
     return(

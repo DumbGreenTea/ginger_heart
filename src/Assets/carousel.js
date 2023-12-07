@@ -17,7 +17,9 @@ import t14 from './img/torta14.jpg';
 import t15 from './img/torta15.jpg';
 import t16 from './img/torta16.jpg';
 import t17 from './img/torta17.jpg';
-import t18 from './img/torta18.jpg';
+import c from './img/corazon.jpg';
+import c1 from './img/corazon1.jpg';
+import c2 from './img/corazon2.jpg';
 
 function ImageCarousel(){
   return(
@@ -25,7 +27,7 @@ function ImageCarousel(){
       <div class="space"></div>
       <div class="container">
         <br/>
-        <div id="myCarousel" class="carousel slide small-carousel" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide small-carousel" data-ride="carousel" style={{marginLeft: "15vh", marginRight: "10vh"}}>
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -34,40 +36,17 @@ function ImageCarousel(){
           </ol>
 
           <div class="carousel-inner">
-            <div class="item active im">
-              <div class="row">
-                  <div class="col-xs-6 col-md-6">
-                    <img src={t10} style={{width:"100%"}}/>
-                  </div>
-                  <div class="col-xs-6 col-md-6">
-                    <img src={t12} style={{width:"100%"}}/>
-                  </div>
-                </div>
+            <div class="item active">
+                <img src={c} style={{width:"200vh"}}/>
             </div>
 
-            <div class="item im">
-              <div class="row">
-                  <div class="col-xs-6 col-md-6">
-                    <img src={t14} style={{width:"100%"}}/>
-                  </div>
-                  <div class="col-xs-6 col-md-6">
-                    <img src={t17} style={{width:"100%"}}/>
-                  </div>
-                </div>
-            </div>
-          
-            <div class="item im">
-              <div class="row">
-                <div class="col-xs-6 col-md-6">
-                  <img src={t3} style={{width:"100%"}}/>
-                </div>
-                <div class="col-xs-6 col-md-6">
-                  <img src={t2} style={{width:"100%"}}/>
-                </div>
-              </div>
+            <div class="item">
+              <img src={c1} style={{width:"200vh"}}/>
             </div>
 
-            
+            <div class="item">
+              <img src={c2} style={{width:"200vh"}}/>
+            </div>         
           </div>
 
 
