@@ -18,6 +18,7 @@ function Home() {
         <br/>
         <br/>
         <Container_img />
+        
     </div>
   );
 }

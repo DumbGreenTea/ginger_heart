@@ -8,6 +8,7 @@ import Nosotros from './Assets/nosotros';
 import Navbar from './Assets/navbar';
 import Footer from './Assets/footer';
 import Galeria from './Assets/galeria';
+import WhatsAppButton from './Assets/WhatsAppButton';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path="/galeria" element={<Galeria/>} />
 
     </Routes>
+    <WhatsAppButton/>
     <Footer />
     </>
   );
